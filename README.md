@@ -1,5 +1,14 @@
 # Banana Inc App
 
+Para facilitar os testes eu criei um workspace no Insomnia.
+
+É só acessar 
+<a href="https://res.cloudinary.com/dhbfhsmzo/raw/upload/v1560694908/room-bookings-api_idl907.json" target="_blank">Workspace Insominia</a>
+e copiar e importar o conteúdo.
+
+Acesse o Insominia <a href="https://insomnia.rest/download/" target="_blank">aqui</a> para baixar.
+ 
+
 ## Como rodar a aplicação
 
 Pré requisitos:
