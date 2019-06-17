@@ -89,7 +89,9 @@ class RoomService {
    * @returns {Promise<[]>}
    */
   async fetchAll () {
-    return await Room.all()
+    return await Room.query()
+      .with('location')
+      .fetch()
   }
 
 }

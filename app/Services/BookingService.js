@@ -100,7 +100,10 @@ class BookingService {
    * @returns {Promise<[]>}
    */
   async fetchAll () {
-    return await Booking.all()
+    return await Booking.query()
+      .with('room')
+      .with('room.location')
+      .fetch()
   }
 
 }

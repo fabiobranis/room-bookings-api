@@ -25,7 +25,9 @@ class Booking extends BookingUpdate{
   get messages () {
     return Object.assign(super.messages, {
       'room_id.required': 'Você deve informar a sala de reunião',
+      'schedule_start.required': 'Você deve informar a data e hora de início da reunião',
       'schedule_end.required': 'Você deve informar a data e hora de fim da reunião',
+      'accountable.required': 'Você deve informar o responsável pela reunião',
       'is_coffee.required': 'Você deve informar se vai ter cafézinho na reunião',
     })
   }
